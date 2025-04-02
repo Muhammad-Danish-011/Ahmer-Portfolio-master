@@ -11,9 +11,10 @@ const introdata = {
         first: "A Petroleum and Gas Engineer.",
         second: "Expert in Enhanced Oil Recovery & Reservoir Simulation.",
         third: "Passionate about Energy & Sustainable Oil Extraction.",
+      
     },
     description: "Dynamic and results-driven Petroleum and Gas Engineer with expertise in Enhanced Oil Recovery (EOR), Reservoir Simulation, and Gas Distribution Systems. My research on nanofluids for oil recovery showcases my analytical acumen and innovative approach. With hands-on experience at SSGC, I have developed a strong understanding of industry operations, regulatory compliance, and safety standards. Passionate about optimizing petroleum processes and contributing to energy sustainability.",
-    your_img_url: "https://raw.githubusercontent.com/Muhammad-Danish-011/Ahmer-Portfolio/master/src/assets/images/pic.jpeg",
+    your_img_url: "https://scontent.fkhi25-1.fna.fbcdn.net/v/t39.30808-6/461152018_2345397549135841_456250143901539954_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEyAd8iVzManxePQ53KQQ-uS3hbDVPSzTdLeFsNU9LNNyfRizQNWuwMFTBwb6Kd5ndpvJSFetjjeXyghAwDZ2XX&_nc_ohc=aZIS0vSbD90Q7kNvgFXRYD1&_nc_oc=AdksTk3b849wRtRx3R5fbGYHG3NKA1epQIAdtMuXIlG_K6U0hZykfQOYBzenmXNr9lg&_nc_zt=23&_nc_ht=scontent.fkhi25-1.fna&_nc_gid=C6RupbWqrLtCaRlpZoe6_g&oh=00_AYEpmU2I_BT-X8orosiAZpo7zmjwSUH5Z3LQsLh5h_xDIw&oe=67F340B7",
 };  
 
 
@@ -26,7 +27,7 @@ const dataabout = {
 const worktimeline = [{
         jobtitle: "Management trainee officer in quality control",
         where: "Alson's Auto parts (pvt) limited",
-        date: "18 November 2024 till 7th March 2025",
+        date: "18 November 2024 till 7th April 2025",
     }
 ];
 
@@ -52,11 +53,8 @@ const skills = [
     // 📊 Tools & Software Used in Industry
     { name: "Microsoft Office (Excel, PowerPoint)", value: 95 },
     { name: "Petroleum Software (Eclipse, CMG)", value: 85 },
-    { name: "MATLAB (for Petroleum Simulations)", value: 80 },
 
 ];
-
-
 const services = [
     {
         title: "Petroleum Engineering Consultation",
@@ -87,10 +85,9 @@ const services = [
         description: "Conducting risk assessments for pipeline integrity, corrosion analysis, and proposing maintenance strategies for long-term operations.",
     },
     {
-        title: "Microsoft Office & Engineering Software Training",
-        description: "Providing training in MS Office, engineering simulation tools, and industry-specific software like MATLAB, AutoCAD, or Petrel.",
+        title: "Microsoft Office & Engineering Software ",
+        description: "MS Office, engineering simulation tools, and industry-specific software like  Petrel.",
     },
-    
 ];
 // const dataportfolio = [{
 //         img: "https://picsum.photos/400/?grayscale",
@@ -154,17 +151,15 @@ const services = [
 //         link: "#",
 //     },
 // ];
-
 const contactConfig = {
     YOUR_EMAIL: "petroleumengineer.ahmer@gmail.com",
-    YOUR_FONE: "+92 348 2418379",
+    YOUR_FONE: "+923340394856",
     description: "",
     // Update these values with your actual EmailJS credentials
-    YOUR_SERVICE_ID: "service_dh83zbj", // <-- Replace with your EmailJS service ID
+    YOUR_SERVICE_ID: "service_jp84wgb", // <-- Replace with your EmailJS service ID
     YOUR_TEMPLATE_ID: "template_mrxulhl", // <-- Replace with your EmailJS template ID
     YOUR_USER_ID: "9uA_6EXeQJ2hwaBJ1", // <-- Replace with your EmailJS user ID (private key)
 };
-
 
 const socialprofils = {
     facebook: "https://www.facebook.com/ahmer.rauf.5",
