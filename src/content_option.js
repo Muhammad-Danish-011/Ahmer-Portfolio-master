@@ -20,9 +20,8 @@ const introdata = {
 
 const dataabout = {
     title: "About Myself",
-    aboutme: "I am a Petroleum and Gas Engineer, graduated from Dawood University of Engineering & Technology in 2024. My expertise lies in Enhanced Oil Recovery (EOR), Reservoir Simulation, and Gas Distribution Systems. With hands-on experience at Sui Southern Gas Company Limited (SSGC), I have developed a strong understanding of natural gas operations, safety regulations, and optimization techniques. Passionate about energy sustainability, I am eager to contribute to the petroleum industry with innovative solutions.",
-};  
-
+    aboutme: "I am a Petroleum and Gas Engineer, graduated from Dawood University of Engineering & Technology in 2024. My expertise lies in Enhanced Oil Recovery (EOR), Reservoir Simulation, and Gas Distribution Systems. With hands-on experience at Sui Southern Gas Company Limited (SSGC), I have developed a strong understanding of natural gas operations, safety regulations, and optimization techniques. I am IOSH Managing Safely certified, demonstrating my commitment to workplace safety and risk management. Passionate about energy sustainability, I am eager to contribute to the petroleum industry with innovative solutions.",  
+}
 
 const worktimeline = [{
         jobtitle: "Management trainee officer in quality control",
@@ -51,8 +50,9 @@ const skills = [
     { name: "Gas Distribution Systems", value: 85 },
     
     // 📊 Tools & Software Used in Industry
-    { name: "Microsoft Office (Excel, PowerPoint)", value: 95 },
-    { name: "Petroleum Software (Eclipse, CMG)", value: 85 },
+    { name: "Microsoft Office (Excel, PowerPoint)", value: 100 },
+
+    
 
 ];
 const services = [
@@ -67,6 +67,10 @@ const services = [
     {
         title: "Health, Safety & Environmental Compliance",
         description: "Ensuring industry compliance with HSE (Health, Safety, and Environmental) risk management in oil & gas operations.",
+    },
+    {
+        title: "IOSH Managing Safely Certified",
+        description: "Certified in IOSH Managing Safely, demonstrating competency in workplace safety management, risk assessment, and implementing HSE best practices in industrial operations.",
     },
     {
         title: "Gas Distribution System Optimization",
@@ -85,8 +89,8 @@ const services = [
         description: "Conducting risk assessments for pipeline integrity, corrosion analysis, and proposing maintenance strategies for long-term operations.",
     },
     {
-        title: "Microsoft Office & Engineering Software ",
-        description: "MS Office, engineering simulation tools, and industry-specific software like  Petrel.",
+        title: "Microsoft Office ",
+        description: "MS Office.",
     },
 ];
 // const dataportfolio = [{
@@ -156,9 +160,9 @@ const contactConfig = {
     YOUR_FONE: "+923340394856",
     description: "",
     // Update these values with your actual EmailJS credentials
-    YOUR_SERVICE_ID: "service_jp84wgb", // <-- Replace with your EmailJS service ID
-    YOUR_TEMPLATE_ID: "template_mrxulhl", // <-- Replace with your EmailJS template ID
-    YOUR_USER_ID: "9uA_6EXeQJ2hwaBJ1", // <-- Replace with your EmailJS user ID (private key)
+    YOUR_SERVICE_ID: "service_typk4ap", // <-- Replace with your EmailJS service ID
+    YOUR_TEMPLATE_ID: "template_6wmko2g", // <-- Replace with your EmailJS template ID
+    YOUR_USER_ID: "yut-FZq_0rW77IMEI", // <-- Replace with your EmailJS user ID (private key)
 };
 
 const socialprofils = {

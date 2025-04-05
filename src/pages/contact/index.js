@@ -30,7 +30,7 @@ export const ContactUs = () => {
     emailjs
       .send(
         contactConfig.YOUR_SERVICE_ID,
-        "template_mrxulhl", // Replace "YOUR_TEMPLATE_ID" with your actual template ID
+        "template_6wmko2g", // Replace "YOUR_TEMPLATE_ID" with your actual template ID
         templateParams,
         contactConfig.YOUR_USER_ID
       )
@@ -55,7 +55,7 @@ export const ContactUs = () => {
   
           emailjs.send(
             contactConfig.YOUR_SERVICE_ID,
-            "template_mrxulhl", // Replace "YOUR_TEMPLATE_ID" with your actual template ID
+            "template_6wmko2g", // Replace "YOUR_TEMPLATE_ID" with your actual template ID
             notificationParams,
             contactConfig.YOUR_USER_ID
           );
