@@ -254,22 +254,10 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    linkedin: {
-        url: "https://www.linkedin.com/in/muhammad-ahmer-215351325/",
-        label: "LinkedIn Profile"
-    },
-    facebook: {
-        url: "https://www.facebook.com/ahmer.rauf.5",
-        label: "Facebook Profile"
-    },
-    portfolio: {
-        url: "https://ahmer-portfolio-master.onrender.com/",
-        label: "Online Portfolio"
-    },
-    email: {
-        url: "mailto:petroleumengineer.ahmer@gmail.com",
-        label: "Professional Email"
-    }
+    facebook: "https://www.facebook.com/ahmer.rauf.5",
+    linkedin: "https://www.linkedin.com/in/muhammad-ahmer-215351325/",
+    portfolio: "https://ahmer-portfolio-master.onrender.com/",
+    email: "mailto:petroleumengineer.ahmer@gmail.com"
 };
 
 const availability = {
