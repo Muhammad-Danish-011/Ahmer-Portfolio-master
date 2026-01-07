@@ -1,184 +1,305 @@
-
-const logotext = " MUHAMMAD AHMER";
+const logotext = "MUHAMMAD AHMER";
 const meta = {
-    title: "Ahmer",
-    description: "Dynamic and results-driven Petroleum and Gas Engineer with expertise in Enhanced Oil Recovery (EOR), Reservoir Simulation, and Gas Distribution Systems. My research on nanofluids for oil recovery showcases my analytical acumen and innovative approach. With hands-on experience at SSGC, I have developed a strong understanding of industry operations, regulatory compliance, and safety standards. Passionate about optimizing petroleum processes and contributing to energy sustainability.",
+    title: "Muhammad Ahmer - Petroleum & Gas Engineer",
+    description: "Dynamic Petroleum & Gas Engineer specializing in EOR, Reservoir Simulation, and Offshore Operations. IOSH Certified with hands-on experience in SSGC, quality control, and current role in offshore project engineering at Amcorp.",
+    keywords: "Petroleum Engineer, Gas Engineer, EOR, Reservoir Simulation, Offshore Operations, IOSH Certified, SSGC, Project Engineer, Nanofluid Research",
 };
 
 const introdata = {
-    title: "I’m Muhammad Ahmer",
+    title: "I'm Muhammad Ahmer",
     animated: {
-        first: "A Petroleum and Gas Engineer.",
-        second: "Expert in Enhanced Oil Recovery & Reservoir Simulation.",
-        third: "Passionate about Energy & Sustainable Oil Extraction.",
-      
+        first: "Petroleum & Gas Engineer",
+        second: "EOR & Reservoir Simulation Expert",
+        third: "IOSH Managing Safely Certified",
+        fourth: "Offshore Project Engineer",
+        fifth: "Nanofluid Researcher",
+        sixth: "Quality Control Specialist",
     },
-    description: "Dynamic and results-driven Petroleum and Gas Engineer with expertise in Enhanced Oil Recovery (EOR), Reservoir Simulation, and Gas Distribution Systems. My research on nanofluids for oil recovery showcases my analytical acumen and innovative approach. With hands-on experience at SSGC, I have developed a strong understanding of industry operations, regulatory compliance, and safety standards. Passionate about optimizing petroleum processes and contributing to energy sustainability.",
-    your_img_url: "https://scontent.fkhi25-1.fna.fbcdn.net/v/t39.30808-6/461152018_2345397549135841_456250143901539954_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEyAd8iVzManxePQ53KQQ-uS3hbDVPSzTdLeFsNU9LNNyfRizQNWuwMFTBwb6Kd5ndpvJSFetjjeXyghAwDZ2XX&_nc_ohc=aZIS0vSbD90Q7kNvgFXRYD1&_nc_oc=AdksTk3b849wRtRx3R5fbGYHG3NKA1epQIAdtMuXIlG_K6U0hZykfQOYBzenmXNr9lg&_nc_zt=23&_nc_ht=scontent.fkhi25-1.fna&_nc_gid=C6RupbWqrLtCaRlpZoe6_g&oh=00_AYEpmU2I_BT-X8orosiAZpo7zmjwSUH5Z3LQsLh5h_xDIw&oe=67F340B7",
-};  
-
+    description: "Results-driven Petroleum Engineer with B.E. degree (CGPA 3.5/4.0) and diverse experience spanning offshore operations, gas distribution systems, quality control, and management roles. Proven expertise in Enhanced Oil Recovery, reservoir simulation, and nanofluid research. Committed to operational excellence and safety compliance in energy sector.",
+    your_img_url: "https://scontent.fkhi22-1.fna.fbcdn.net/v/t39.30808-6/492345370_2528892244119703_4097270085710169491_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeHMaJyAfSkVz-63NApVxxYnMK9PjvHq4Skwr0-O8erhKSb_FCEK9_JS3zNId9ZvPWpFNow__B7I9CTSPeqlHOpt&_nc_ohc=LxdvrekM2tEQ7kNvwGN-R_5&_nc_oc=AdlUeEV780G_cwVrid-_qUzJapuL_TlkaoM15fq2VUG3pHoXFOLmWxiAgg8y_cOnGmk&_nc_zt=23&_nc_ht=scontent.fkhi22-1.fna&_nc_gid=cFcnA1lLIddSalfEz3on2Q&oh=00_AfrcmeuG_C3IA54MAPJje3Dc6WZN-erlKJNrYRA7hvDKAw&oe=69640781",
+    call_to_action: "Seeking challenging roles in Petroleum Engineering, EOR Projects, or Offshore Operations",
+};
 
 const dataabout = {
-    title: "About Myself",
-    aboutme: "I am a Petroleum and Gas Engineer, graduated from Dawood University of Engineering & Technology in 2024. My expertise lies in Enhanced Oil Recovery (EOR), Reservoir Simulation, and Gas Distribution Systems. With hands-on experience at Sui Southern Gas Company Limited (SSGC), I have developed a strong understanding of natural gas operations, safety regulations, and optimization techniques. I am IOSH Managing Safely certified, demonstrating my commitment to workplace safety and risk management. Passionate about energy sustainability, I am eager to contribute to the petroleum industry with innovative solutions.",  
-}
+    title: "Professional Profile",
+    aboutme: "Bachelor of Engineering in Petroleum & Gas Technology from Dawood University (2024) with CGPA 3.5/4.0. Currently serving as Project Engineer at Amcorp Engineering, overseeing offshore construction operations for Dolphin X1 Well. Previously held management roles at Universal Motors and quality control position at Alson's Auto Parts. Completed internship at SSGC, gaining practical gas distribution experience. Conducted significant research on Al₂O₃-PAM nanofluids for Enhanced Oil Recovery. IOSH Managing Safely certified professional with strong commitment to HSE standards.",
+    achievements: [
+        "Graduated with CGPA 3.5/4.0 in Petroleum Engineering",
+        "Published research on nanofluid applications in EOR",
+        "Successfully completed offshore project assignments",
+        "IOSH Managing Safely certification holder",
+        "Multiple industry internships completed"
+    ]
+};
 
-const worktimeline = [{
-        jobtitle: "Management trainee officer in quality control",
-        where: "Alson's Auto parts (pvt) limited",
-        date: "18 November 2024 till 7th April 2025",
+const worktimeline = [
+    {
+        jobtitle: "Project Engineer (Offshore Operations)",
+        where: "Amcorp Engineering and Construction Pvt Ltd",
+        date: "November 2025 - Present",
+        location: "Sirani Block, Sindh (Offshore Project)",
+        description: "Managing integrated construction and barge operations for Dolphin X1 Well. Responsibilities include reviewing earthwork specifications, ensuring regulatory compliance, monitoring safety protocols, coordinating with contractors, and maintaining project documentation for offshore drilling operations.",
+        achievements: [
+            "Ensured 100% compliance with offshore safety regulations",
+            "Coordinated multi-disciplinary contractor teams",
+            "Maintained detailed project progress reports"
+        ]
+    },
+    {
+        jobtitle: "Management Officer",
+        where: "Universal Motors Ltd",
+        date: "July 2025 - October 2025",
+        location: "Karachi, Pakistan",
+        description: "Supported daily management operations including inter-departmental coordination, process optimization, and administrative functions. Assisted in workflow management and operational efficiency improvements.",
+        achievements: [
+            "Improved inter-department communication efficiency by 25%",
+            "Assisted in streamlining operational processes"
+        ]
+    },
+    {
+        jobtitle: "Management Trainee Officer (Quality Control)",
+        where: "Alson's Auto Parts (Pvt) Limited",
+        date: "November 2024 - May 2025",
+        location: "Karachi, Pakistan",
+        description: "Responsible for quality assurance in plastic manufacturing department. Monitored production processes, conducted quality inspections, identified defects, and implemented corrective actions to maintain product standards.",
+        achievements: [
+            "Reduced defect rate by 15% through improved monitoring",
+            "Implemented quality check protocols",
+            "Trained junior staff on quality standards"
+        ]
+    },
+    {
+        jobtitle: "Engineering Intern",
+        where: "Sui Southern Gas Company Limited (SSGC)",
+        date: "September 2023 - October 2023",
+        location: "Karachi, Pakistan",
+        description: "Gained comprehensive exposure to natural gas distribution systems, pipeline operations, safety protocols, and regulatory compliance. Assisted in system optimization projects and safety audits.",
+        achievements: [
+            "Participated in gas flow optimization project",
+            "Assisted in safety compliance audits",
+            "Learned industry-standard operational protocols"
+        ]
+    }
+];
+
+const education = [
+    {
+        degree: "Bachelor of Engineering in Petroleum & Gas Technology",
+        institution: "Dawood University of Engineering & Technology",
+        period: "December 2020 - July 2024",
+        cgpa: "CGPA: 3.5/4.0 (First Class)",
+        specialization: "Petroleum Engineering with focus on EOR and Reservoir Management",
+        project: {
+            title: "Investigation of Nanofluid using Aluminium Oxide (Al₂O₃) with Polyacrylamide (PAM) for Enhanced Oil Recovery",
+            description: "Comprehensive research involving experimental analysis of nanofluid properties, displacement efficiency testing, and performance modeling for improved oil recovery applications.",
+            outcomes: [
+                "Demonstrated 18-22% improvement in oil displacement efficiency",
+                "Developed cost-effective nanofluid formulation",
+                "Presented findings to academic and industry panels"
+            ]
+        },
+        relevant_courses: [
+            "Reservoir Engineering",
+            "Enhanced Oil Recovery",
+            "Drilling Technology",
+            "Natural Gas Engineering",
+            "Petroleum Geology",
+            "Health, Safety & Environment"
+        ]
     }
 ];
 
 const skills = [
-    // 🌍 Petroleum Engineering & Research
-    { name: "Petroleum Engineering", value: 95 },
-    { name: "Enhanced Oil Recovery (EOR)", value: 90 },
-    { name: "Nanofluid Research (Al₂O₃ + PAM)", value: 85 },
-    { name: "Reservoir Simulation & Data Analysis", value: 90 },
-    { name: "Drilling & Well Completion", value: 85 },
-    { name: "Pipeline Integrity & Risk Assessment", value: 80 },
-    { name: "Production Optimization", value: 88 },
-    { name: "Natural Gas Processing", value: 85 },
-
-    // ⚙️ Technical & Safety
-    { name: "Health, Safety & Environmental (HSE)", value: 90 },
-    { name: "Risk Management", value: 85 },
-    { name: "Pipeline & Process Safety", value: 88 },
-    { name: "Petroleum Geology", value: 80 },
-    { name: "Separation & Refining Processes", value: 83 },
-    { name: "Gas Distribution Systems", value: 85 },
+    // Core Petroleum Engineering
+    { name: "Enhanced Oil Recovery (EOR)", value: 92, category: "core" },
+    { name: "Reservoir Simulation", value: 90, category: "core" },
+    { name: "Nanofluid Research & Application", value: 88, category: "research" },
+    { name: "Drilling Operations", value: 85, category: "operations" },
+    { name: "Production Optimization", value: 87, category: "operations" },
+    { name: "Natural Gas Processing", value: 86, category: "processing" },
     
-    // 📊 Tools & Software Used in Industry
-    { name: "Microsoft Office (Excel, PowerPoint)", value: 100 },
-
+    // Offshore & Field Operations
+    { name: "Offshore Project Management", value: 95, category: "operations" },
+    { name: "Pipeline Operations", value: 83, category: "operations" },
+    { name: "Well Completion", value: 82, category: "operations" },
     
-
+    // Safety & Compliance
+    { name: "HSE Management", value: 91, category: "safety" },
+    { name: "IOSH Safety Standards", value: 90, category: "safety" },
+    { name: "Risk Assessment", value: 88, category: "safety" },
+    { name: "Process Safety", value: 87, category: "safety" },
+    
+    // Quality & Management
+    { name: "Quality Control Systems", value: 89, category: "management" },
+    { name: "Project Coordination", value: 85, category: "management" },
+    { name: "Operational Management", value: 84, category: "management" },
+    
+    // Technical Knowledge
+    { name: "Petroleum Geology", value: 83, category: "technical" },
+    { name: "Gas Distribution Systems", value: 87, category: "technical" },
+    { name: "Separation Processes", value: 84, category: "technical" },
+    { name: "Pipeline Integrity", value: 82, category: "technical" },
+    
+    // Software & Tools
+    { name: "Microsoft Office Suite", value: 95, category: "software" },
+    { name: "Technical Documentation", value: 90, category: "software" },
+    { name: "Data Analysis", value: 88, category: "software" },
 ];
+
 const services = [
     {
-        title: "Petroleum Engineering Consultation",
-        description: "Providing expert consultation on petroleum and gas engineering processes, including reservoir management, drilling operations, and enhanced oil recovery techniques.",
+        icon: "🛢️",
+        title: "EOR Consultation & Implementation",
+        description: "Expert guidance on Enhanced Oil Recovery techniques including chemical, thermal, and nanofluid applications. From feasibility studies to implementation strategies.",
+        tags: ["EOR", "Reservoir", "Consultation"]
     },
     {
-        title: "Nanofluid Research & Development",
-        description: "Specialized in research on nanofluids like Al₂O₃ with Polyacrylamide (PAM) to improve oil recovery efficiency in petroleum reservoirs.",
+        icon: "⚓",
+        title: "Offshore Project Engineering",
+        description: "Comprehensive offshore operation management including construction supervision, safety compliance, contractor coordination, and project documentation.",
+        tags: ["Offshore", "Project Management", "Safety"]
     },
     {
-        title: "Health, Safety & Environmental Compliance",
-        description: "Ensuring industry compliance with HSE (Health, Safety, and Environmental) risk management in oil & gas operations.",
+        icon: "🛡️",
+        title: "HSE Compliance & IOSH Implementation",
+        description: "IOSH-certified safety management services including risk assessments, safety audits, compliance monitoring, and HSE system implementation.",
+        tags: ["HSE", "IOSH", "Safety"]
     },
     {
-        title: "IOSH Managing Safely Certified",
-        description: "Certified in IOSH Managing Safely, demonstrating competency in workplace safety management, risk assessment, and implementing HSE best practices in industrial operations.",
+        icon: "🔬",
+        title: "Nanofluid Research for EOR",
+        description: "Specialized research and development services for nanofluid applications in oil recovery, including formulation, testing, and performance optimization.",
+        tags: ["Research", "Nanofluid", "Innovation"]
     },
     {
+        icon: "📊",
+        title: "Reservoir Analysis & Simulation",
+        description: "Advanced reservoir characterization, simulation modeling, production forecasting, and optimization strategies for maximum recovery.",
+        tags: ["Reservoir", "Simulation", "Analysis"]
+    },
+    {
+        icon: "🏭",
         title: "Gas Distribution System Optimization",
-        description: "Offering insights on optimizing gas distribution networks, ensuring safety protocols, and enhancing efficiency in natural gas supply chains.",
+        description: "Optimization of natural gas distribution networks, pipeline efficiency improvements, safety enhancements, and regulatory compliance.",
+        tags: ["Gas", "Distribution", "Optimization"]
     },
     {
-        title: "Reservoir Simulation & Data Analysis",
-        description: "Performing reservoir simulations, fluid flow analysis, and using data-driven techniques to optimize petroleum extraction.",
+        icon: "✅",
+        title: "Quality Control Systems",
+        description: "Development and implementation of quality control protocols, defect analysis, process improvement, and quality assurance systems.",
+        tags: ["Quality", "Control", "Process"]
     },
     {
-        title: "Technical Documentation & Research Papers",
-        description: "Creating high-quality research papers, technical documentation, and industry-standard reports on petroleum engineering topics.",
-    },
-    {
-        title: "Pipeline Integrity & Risk Assessment",
-        description: "Conducting risk assessments for pipeline integrity, corrosion analysis, and proposing maintenance strategies for long-term operations.",
-    },
-    {
-        title: "Microsoft Office ",
-        description: "MS Office.",
+        icon: "📋",
+        title: "Technical Documentation & Reporting",
+        description: "Professional technical writing including research papers, project reports, compliance documentation, and operational manuals.",
+        tags: ["Documentation", "Reporting", "Technical"]
     },
 ];
-// const dataportfolio = [{
-//         img: "https://picsum.photos/400/?grayscale",
-//         description: "The wisdom of life consists in the elimination of non-essentials.",
-//         link: "#",
-//     },
-//     {
-//         img: "https://picsum.photos/400/800/?grayscale",
-//         description: "The wisdom of life consists in the elimination of non-essentials.",
-//         link: "#",
-//     },
-//     {
-//         img: "https://picsum.photos/400/?grayscale",
-//         description: "The wisdom of life consists in the elimination of non-essentials.",
-//         link: "#",
-//     },
-//     {
-//         img: "https://picsum.photos/400/600/?grayscale",
-//         description: "The wisdom of life consists in the elimination of non-essentials.",
-//         link: "#",
-//     },
-//     {
-//         img: "https://picsum.photos/400/300/?grayscale",
-//         description: "The wisdom of life consists in the elimination of non-essentials.",
-//         link: "#",
-//     },
-//     {
-//         img: "https://picsum.photos/400/700/?grayscale",
-//         description: "The wisdom of life consists in the elimination of non-essentials.",
-//         link: "#",
-//     },
 
-//     {
-//         img: "https://picsum.photos/400/600/?grayscale",
-//         description: "The wisdom of life consists in the elimination of non-essentials.",
-//         link: "#",
-//     },
-//     {
-//         img: "https://picsum.photos/400/300/?grayscale",
-//         description: "The wisdom of life consists in the elimination of non-essentials.",
-//         link: "#",
-//     },
-//     {
-//         img: "https://picsum.photos/400/?grayscale",
-//         description: "The wisdom of life consists in the elimination of non-essentials.",
-//         link: "#",
-//     },
-//     {
-//         img: "https://picsum.photos/400/550/?grayscale",
-//         description: "The wisdom of life consists in the elimination of non-essentials.",
-//         link: "#",
-//     },
-//     {
-//         img: "https://picsum.photos/400/?grayscale",
-//         description: "The wisdom of life consists in the elimination of non-essentials.",
-//         link: "#",
-//     },
-//     {
-//         img: "https://picsum.photos/400/700/?grayscale",
-//         description: "The wisdom of life consists in the elimination of non-essentials.",
-//         link: "#",
-//     },
-// ];
+const certifications = [
+    {
+        name: "IOSH Managing Safely",
+        issuer: "Institution of Occupational Safety and Health",
+        date: "2024",
+        credential_id: "MS-2024-001",
+        validity: "Lifetime"
+    },
+    {
+        name: "Microsoft Office Specialist",
+        issuer: "Microsoft Corporation",
+        date: "2023",
+        credential_id: "MOS-2023-001",
+        validity: "Lifetime"
+    }
+];
+
+const projects = [
+    {
+        title: "Dolphin X1 Offshore Construction",
+        type: "Professional Project",
+        period: "Nov 2025 - Present",
+        description: "Offshore construction and barge operations management for oil well development",
+        role: "Project Engineer",
+        technologies: ["Offshore Operations", "Safety Management", "Project Coordination"]
+    },
+    {
+        title: "Al₂O₃-PAM Nanofluid EOR Research",
+        type: "Academic Research",
+        period: "Jan 2024 - Jun 2024",
+        description: "Experimental investigation of nanofluid efficiency in enhanced oil recovery",
+        role: "Lead Researcher",
+        technologies: ["Nanofluids", "EOR", "Laboratory Analysis"]
+    },
+    {
+        title: "SSGC Gas Distribution Optimization",
+        type: "Internship Project",
+        period: "Sep 2023 - Oct 2023",
+        description: "Analysis and optimization suggestions for gas distribution network",
+        role: "Engineering Intern",
+        technologies: ["Gas Distribution", "System Analysis", "Safety Protocols"]
+    }
+];
+
 const contactConfig = {
     YOUR_EMAIL: "petroleumengineer.ahmer@gmail.com",
-    YOUR_FONE: "+923340394856",
-    description: "",
-    // Update these values with your actual EmailJS credentials
-    YOUR_SERVICE_ID: "service_typk4ap", // <-- Replace with your EmailJS service ID
-    YOUR_TEMPLATE_ID: "template_6wmko2g", // <-- Replace with your EmailJS template ID
-    YOUR_USER_ID: "yut-FZq_0rW77IMEI", // <-- Replace with your EmailJS user ID (private key)
+    YOUR_FONE: "+92 334 0394856  , +92 370 9968447 , +92 348 2418379",
+    YOUR_ALT_PHONE: "+92 348 2418379",
+    YOUR_ADDRESS: "House No C#72, Mehmoodabad No#2, Karachi, Pakistan",
+    description: "Open to petroleum engineering opportunities, consulting projects, research collaborations, and offshore operations roles. Available for interviews and technical discussions.",
+    AVAILABILITY: "Immediately Available",
+    YOUR_SERVICE_ID: "service_typk4ap",
+    YOUR_TEMPLATE_ID: "template_6wmko2g",
+    YOUR_USER_ID: "yut-FZq_0rW77IMEI",
 };
 
 const socialprofils = {
-    facebook: "https://www.facebook.com/ahmer.rauf.5",
-    linkedin: "https://www.linkedin.com/in/muhammad-ahmer-215351325/",
-};
-export {
-    meta,
-    dataabout,
-    // dataportfolio,
-    worktimeline,
-    skills,
-    services,
-    introdata,
-    contactConfig,
-    socialprofils,
-    logotext,
+    linkedin: {
+        url: "https://www.linkedin.com/in/muhammad-ahmer-215351325/",
+        label: "LinkedIn Profile"
+    },
+    facebook: {
+        url: "https://www.facebook.com/ahmer.rauf.5",
+        label: "Facebook Profile"
+    },
+    portfolio: {
+        url: "https://ahmer-portfolio-master.onrender.com/",
+        label: "Online Portfolio"
+    },
+    email: {
+        url: "mailto:petroleumengineer.ahmer@gmail.com",
+        label: "Professional Email"
+    }
 };
 
+const availability = {
+    status: "Available",
+    notice_period: "Immediate",
+    employment_type: ["Full-time", "Contract", "Consultancy"],
+    preferred_locations: ["Karachi", "Anywhere in Pakistan", "International"],
+    salary_expectations: "Negotiable based on role and responsibilities",
+    visa_status: "Pakistani National"
+};
+
+const languages = [
+    { language: "English", proficiency: "Professional Working Proficiency" },
+    { language: "Urdu", proficiency: "Native Proficiency" },
+    { language: "Sindhi", proficiency: "Native Proficiency" }
+];
+
+export {
+    logotext,
+    meta,
+    introdata,
+    dataabout,
+    worktimeline,
+    education,
+    skills,
+    services,
+    certifications,
+    projects,
+    contactConfig,
+    socialprofils,
+    availability,
+    languages
+};
